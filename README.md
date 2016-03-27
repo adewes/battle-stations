@@ -5,7 +5,7 @@ Highlights:
 
 * Uses the Github Issues API to display incidents to the user.
 * Updates automatically when you create/update/close issues in your Github project.
-* Does not require a backend server as it communicates directly with Github API.
+* Does not require a backend server as it communicates directly with the Github API.
 * Performs a client-side reachability check of your own APIs.
 
 ## Setup
@@ -15,6 +15,10 @@ Highlights:
 * Point `githubProject` in `index.js` to your own Github project and
   (optionally) add/edit your API endpoints that you want to have checked.
 
+If you want to host your status page via Github pages, follow their instructions here:
+
+https://pages.github.com/
+
 ## Usage
 
 * To create new incidents, simply create a new issue in your project and add
@@ -22,6 +26,11 @@ Highlights:
 * To mark incidents as resolved, simply close the corresponding issue.
 
 ## Questions & Answers
+
+### What technologies does this use?
+
+It uses jQuery, React.js and a few CSS/HTML libraries (Bootstrap, Font-Awesome).
+The code is kept as simple as possible and runs without any build steps / compilation.
 
 ### How does this work?
 
