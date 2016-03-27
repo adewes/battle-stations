@@ -1,4 +1,4 @@
-## Batte Stations!
+## Battle Stations!
 
 Battle-stations is a simple status page based on Github issues that you can host everywhere.
 Highlights:
