@@ -1,0 +1,33 @@
+
+body{
+    font-family: Open Sans, Helvetica, Sans Serif;
+    padding-top:20px;
+}
+
+.green{
+    background:green;
+}
+
+.red{
+    background:red;
+}
+
+.grey{
+    background:gray;
+}
+
+.panel-danger .panel-heading h3,
+.panel-danger .panel-body p
+{
+    font-weight:600;
+}
+
+h2 a{
+    font-weight:300;
+    color:#aaa;
+}
+
+footer{
+    margin-top:20px;
+    margin-bottom:20px;
+}
